@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-i18n="meta_title">الجمعية الخيرية ريحانة الأمل - بلدية زموري</title>
+<meta name="description" data-i18n-attr="content" data-i18n="meta_desc" content="جمعية خيرية ناشئة ببلدية زموري تعنى بالأيتام والأرامل والمرضى والمحتاجين">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;500;600;700&family=Lora:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- decorative basil sprig used across the site -->
+<svg style="display:none">
+  <symbol id="leaf-icon" viewBox="0 0 64 64">
+    <path d="M32 58 C32 42 32 30 32 6" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M32 44 C20 44 12 36 10 22 C24 22 32 30 32 44 Z" fill="currentColor"/>
+    <path d="M32 30 C44 30 52 22 54 10 C40 10 32 18 32 30 Z" fill="currentColor"/>
+    <path d="M32 50 C22 50 15 44 13 33 C25 33 32 39 32 50 Z" fill="currentColor" opacity="0.75"/>
+  </symbol>
+  <symbol id="cap-icon" viewBox="0 0 64 64">
+    <path d="M32 14 L58 26 L32 38 L6 26 Z" fill="currentColor"/>
+    <path d="M18 30 V44 C18 50 46 50 46 44 V30" stroke="currentColor" stroke-width="2.5" fill="none"/>
+    <path d="M56 27 V42" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="56" cy="45" r="2.5" fill="currentColor"/>
+  </symbol>
+  <symbol id="hands-icon" viewBox="0 0 64 64">
+    <path d="M32 20 C29 13 20 12 17 19 C14 26 20 32 32 42 C44 32 50 26 47 19 C44 12 35 13 32 20 Z" fill="currentColor"/>
+    <path d="M10 46 C18 40 26 40 32 46 C38 40 46 40 54 46 L54 50 C46 44 38 44 32 50 C26 44 18 44 10 50 Z" fill="currentColor" opacity="0.85"/>
+  </symbol>
+  <symbol id="home-icon" viewBox="0 0 64 64">
+    <path d="M8 30 L32 10 L56 30" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 26 V52 H50 V26" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linejoin="round"/>
+    <path d="M27 52 V38 H37 V52" stroke="currentColor" stroke-width="2.5" fill="none"/>
+  </symbol>
+  <symbol id="phone-icon" viewBox="0 0 64 64">
+    <path d="M14 12 C12 20 20 44 44 52 L52 44 L40 36 L36 40 C28 36 24 32 20 24 L24 20 L14 12 Z" fill="currentColor"/>
+  </symbol>
+  <symbol id="mail-icon" viewBox="0 0 64 64">
+    <rect x="8" y="16" width="48" height="34" rx="3" stroke="currentColor" stroke-width="2.5" fill="none"/>
+    <path d="M10 18 L32 36 L54 18" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+  <symbol id="pin-icon" viewBox="0 0 64 64">
+    <path d="M32 58 C32 58 50 40 50 26 C50 14 42 6 32 6 C22 6 14 14 14 26 C14 40 32 58 32 58 Z" stroke="currentColor" stroke-width="2.5" fill="none"/>
+    <circle cx="32" cy="26" r="7" fill="currentColor"/>
+  </symbol>
+  <symbol id="fb-icon" viewBox="0 0 64 64">
+    <circle cx="32" cy="32" r="26" fill="currentColor"/>
+    <path d="M36 22 h6 v-8 h-7 c-7 0-10 4-10 10 v4 h-6 v8 h6 v20 h8 V36 h6 l1-8 h-7 v-3 c0-2 1-3 3-3 Z" fill="#fff"/>
+  </symbol>
+</svg>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">
+      <img class="brand-logo" src="images/logo.png" alt="شعار الجمعية">
+      <span class="brand-name" data-i18n="brand_name">ريحانة الأمل</span>
+    </a>
+
+    <nav class="site-nav" id="siteNav">
+      <a href="#about" data-i18n="nav_about">من نحن</a>
+      <a href="#activities" data-i18n="nav_activities">أنشطتنا</a>
+      <a href="#contact" data-i18n="nav_contact">اتصل بنا</a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang-switch" role="group" aria-label="Language switch">
+        <button type="button" class="lang-btn" data-lang="ar" aria-pressed="true">AR</button>
+        <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero-leaves" aria-hidden="true">
+      <svg viewBox="0 0 64 64"><use href="#leaf-icon"/></svg>
+      <svg viewBox="0 0 64 64"><use href="#leaf-icon"/></svg>
+      <svg viewBox="0 0 64 64"><use href="#leaf-icon"/></svg>
+    </div>
+    <div class="wrap hero-inner">
+      <p class="eyebrow" data-i18n="hero_eyebrow">بلدية زموري - ولاية بومرداس</p>
+      <h1 data-i18n="hero_title">الجمعية الخيرية ريحانة الأمل</h1>
+      <p class="hero-tagline" data-i18n="hero_tagline">نزرع الأمل، ونمدّ يد العون لكل محتاج.</p>
+      <div class="hero-cta">
+        <a href="#activities" class="btn btn-primary" data-i18n="hero_btn_activities">تعرّف على أنشطتنا</a>
+        <a href="#contact" class="btn btn-ghost" data-i18n="hero_btn_contact">تواصل معنا</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider" aria-hidden="true">
+    <svg viewBox="0 0 64 64"><use href="#leaf-icon"/></svg>
+  </div>
+
+  <section class="about" id="about">
+    <div class="wrap about-inner">
+      <div class="section-heading">
+        <span class="eyebrow" data-i18n="about_eyebrow">تعريف بالجمعية</span>
+        <h2 data-i18n="about_title">من نحن</h2>
+      </div>
+      <p class="about-text" data-i18n="about_text">
+        الجمعية الخيرية "ريحانة الأمل" لبلدية زموري جمعية خيرية ناشئة حديثًا، تسعى منذ انطلاقها إلى
+        مساعدة الأيتام والأرامل والمرضى والمحتاجين في المنطقة، من خلال مبادرات تضامنية وأعمال تطوعية
+        تجمع أبناء الجماعة على قيم العطاء والتكافل.
+      </p>
+      <div class="about-stats">
+        <div class="stat">
+          <span class="stat-num" data-i18n="about_stat1_num">100%</span>
+          <span class="stat-label" data-i18n="about_stat1_label">تطوّع</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-i18n="about_stat2_num">3</span>
+          <span class="stat-label" data-i18n="about_stat2_label">محاور عمل رئيسية</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-i18n="about_stat3_num">زموري</span>
+          <span class="stat-label" data-i18n="about_stat3_label">مقر الجمعية</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="activities" id="activities">
+    <div class="wrap">
+      <div class="section-heading center">
+        <span class="eyebrow" data-i18n="activities_eyebrow">ما الذي نقوم به</span>
+        <h2 data-i18n="activities_title">أنشطتنا</h2>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card-img-wrap">
+            <img class="card-img" src="images/photo_1.jpg" alt="زيارة الأطفال المرضى بمستشفى الثنية">
+          </div>
+          <h3 data-i18n="act1_title">زيارة الأطفال المرضى بمستشفى الثنية</h3>
+          <p data-i18n="act1_text">نظّمت الجمعية أولى أنشطتها بزيارة إلى مستشفى الثنية، لإدخال الفرحة والسرور على قلوب الأطفال المرضى ورسم الابتسامة على وجوههم ولو للحظات بسيطة مليئة بالمحبة والإنسانية. وتتقدّم الجمعية بجزيل الشكر إلى المهرّج "عمو حسان" على حضوره المميز ومساهمته في إسعاد الأطفال، سائلين الله أن يبارك في كل من ساهم في هذا العمل الخيري، وأن تكون هذه المبادرة بداية لما هو أجمل بإذن الله.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-img-wrap">
+            <img class="card-img" src="images/photo_2.jpg" alt="مبادرة تشجيعية لتلاميذ متوسطة القشيري">
+          </div>
+          <h3 data-i18n="act2_title">مبادرة تشجيعية لتلاميذ متوسطة القشيري</h3>
+          <p data-i18n="act2_text">بالتنسيق مع الكشافة الإسلامية الجزائرية - فوج الصمود زموري، نظّمت الجمعية مبادرة تشجيعية لتلاميذ متوسطة مسلم بن حجاج القشيري المقبلين على امتحاناتهم، تضمّنت توزيع المياه والحلويات والقصاصات التحفيزية، لزرع الأمل والطاقة الإيجابية في نفوسهم.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-img-wrap">
+            <img class="card-img" src="images/photo_3.jpg" alt="مساندة مترشحي شهادة البكالوريا 2026">
+          </div>
+          <h3 data-i18n="act3_title">مساندة مترشحي شهادة البكالوريا 2026</h3>
+          <p data-i18n="act3_text">في إطار دعم أبنائنا المترشحين لشهادة البكالوريا 2026، وزّعت الجمعية المياه المعدنية والحلويات والقصاصات التشجيعية على الممتحنين، لمساندتهم ورفع معنوياتهم في هذا اليوم المهم من مسيرتهم الدراسية.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-img-wrap">
+            <img class="card-img" src="images/photo_4.jpg" alt="يوم ترفيهي وتعليمي لأطفالنا الأيتام">
+          </div>
+          <h3 data-i18n="act4_title">يوم ترفيهي وتعليمي لأطفالنا الأيتام</h3>
+          <p data-i18n="act4_text">بالتنسيق مع الأخصائية في التربية الخاصة السيدة آمال حمداش، نظّمت الجمعية يومًا ترفيهيًا وتعليميًا لفائدة الأطفال الأيتام، تضمّن ألعابًا تعليمية وورشات متنوعة نمّت مهاراتهم وزرعت في قلوبهم الأمل والثقة.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-img-wrap">
+            <img class="card-img" src="images/photo_5.jpg" alt="تكريم التوأم الحافظتين لكتاب الله">
+          </div>
+          <h3 data-i18n="act5_title">تكريم التوأم الحافظتين لكتاب الله</h3>
+          <p data-i18n="act5_text">تشرّفت الجمعية بتكريم التوأم بن شوك هبة الرحمن وبن شوك إكرام، احتفاءً بإتمامهما حفظ كتاب الله تعالى كاملاً، في لحظة فخر واعتزاز لأهلهما وللجمعية، سائلين الله أن يجعل القرآن ربيع قلبيهما ونورًا لدربهما.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-img-wrap">
+            <img class="card-img" src="images/photo_6.jpg" alt="تحضيرات حفل تكريم المتفوقين">
+          </div>
+          <h3 data-i18n="act6_title">خلف الكواليس: تحضيرات حفل تكريم المتفوقين</h3>
+          <p data-i18n="act6_text">قبل انطلاق حفل تكريم أبنائنا الأيتام المتفوقين، عمل فريق الجمعية بإخلاص على التحضيرات وترتيب أدق التفاصيل، لأن كل لحظة فرح تستحق أن تُصنع بكل حب واهتمام.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-img-wrap">
+            <img class="card-img" src="images/photo_7.jpg" alt="اليوم الختامي لمبادرة دعم تلاميذ ثانوية الإخوة ريال">
+          </div>
+          <h3 data-i18n="act7_title">اليوم الختامي لدعم تلاميذ ثانوية الإخوة ريال</h3>
+          <p data-i18n="act7_text">في اليوم الثالث والأخير من امتحانات شهادة التعليم المتوسط، اختتمت الجمعية مبادرتها التحفيزية بثانوية الإخوة ريال، بتوزيع المياه والحلويات والقصاصات التشجيعية، في أجواء مفعمة بالدعوات الصادقة بالتوفيق والنجاح.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-img-wrap">
+            <img class="card-img" src="images/photo_8.jpg" alt="مواصلة دعم مترشحي البكالوريا بثانوية الإخوة ريال">
+          </div>
+          <h3 data-i18n="act8_title">مواصلة دعم مترشحي البكالوريا بثانوية الإخوة ريال</h3>
+          <p data-i18n="act8_text">واصلت الجمعية مبادراتها التحفيزية لصالح تلاميذ ثانوية الإخوة ريال المقبلين على امتحاناتهم، بتوزيع المياه والحلويات والقصاصات التشجيعية، إيمانًا منها بأن كلمة طيبة قد تصنع أملاً، ودعوة صادقة قد تفتح أبواب النجاح.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-img-wrap">
+            <img class="card-img" src="images/photo_9.jpg" alt="توزيع اللحوم بمناسبة عيد الأضحى">
+          </div>
+          <h3 data-i18n="act9_title">توزيع اللحوم بمناسبة عيد الأضحى</h3>
+          <p data-i18n="act9_text">بمناسبة عيد الأضحى المبارك 2026، نظّمت الجمعية حملة لتوزيع اللحوم على الأسر المحتاجة والأيتام والأرامل ببلدية زموري، تجسيدًا لقيم التكافل والمشاركة في أجواء العيد.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-img-wrap">
+            <img class="card-img" src="images/photo_10.jpg" alt="زيارة تطوعية لدار العجزة دار الآمال ببليدة">
+          </div>
+          <h3 data-i18n="act10_title">زيارة تطوعية لدار العجزة "دار الآمال" ببليدة</h3>
+          <p data-i18n="act10_text">نظّمت الجمعية خرجة تطوعية لزيارة نزلاء دار العجزة "دار الآمال" بولاية البليدة، لإدخال البهجة والمؤانسة على قلوبهم وقضاء وقت مليء بالدفء الإنساني برفقتهم.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-img-wrap">
+            <img class="card-img" src="images/photo_11.jpg" alt="زيارة تطوعية لمترشحي البكالوريا ببلدية جنات">
+          </div>
+          <h3 data-i18n="act11_title">زيارة تطوعية لمترشحي البكالوريا ببلدية جنات</h3>
+          <p data-i18n="act11_text">امتدت مبادرات الجمعية إلى بلدية جنات بولاية بومرداس، حيث نظّم فريق من المتطوعين زيارة ميدانية لتوزيع مياه الشرب وغيرها على مترشحي شهادة البكالوريا 2026، دعمًا لهم في أداء امتحاناتهم.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap contact-inner">
+      <div class="section-heading">
+        <span class="eyebrow light" data-i18n="contact_eyebrow">ابقَ على تواصل</span>
+        <h2 class="light" data-i18n="contact_title">اتصل بنا</h2>
+        <p class="contact-note light" data-i18n="contact_note">للاستفسار أو المساهمة في أنشطة الجمعية، يسعدنا تواصلكم معنا عبر:</p>
+      </div>
+
+      <ul class="contact-list">
+        <li>
+          <svg viewBox="0 0 64 64"><use href="#phone-icon"/></svg>
+          <a href="tel:+213791473659" data-i18n="contact_phone">+213 791 47 36 59</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 64 64"><use href="#mail-icon"/></svg>
+          <a href="mailto:Rayhanaalmal@gmail.com" data-i18n="contact_email">Rayhanaalmal@gmail.com</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 64 64"><use href="#pin-icon"/></svg>
+          <a href="https://maps.google.com/?q=Zemmouri,Boumerdès,Algeria" target="_blank" rel="noopener" data-i18n="contact_address">بلدية زموري، ولاية بومرداس، الجزائر</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 64 64"><use href="#fb-icon"/></svg>
+          <a href="https://web.facebook.com/profile.php?id=100063916632789" target="_blank" rel="noopener" data-i18n="contact_fb">صفحتنا على فيسبوك</a>
+        </li>
+      </ul>
+
+      
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="brand small">
+      <img class="brand-logo" src="images/logo.png" alt="شعار الجمعية">
+      <span data-i18n="brand_name">ريحانة الأمل</span>
+    </div>
+    <p data-i18n="footer_text">© {year} الجمعية الخيرية ريحانة الأمل لبلدية زموري - جميع الحقوق محفوظة.</p>
+    <p class="credit"><a href="https://github.com/tarzout-noussayba-dev-ctrl" target="_blank" rel="noopener">Developed by Tarzout Noussayba</a></p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
