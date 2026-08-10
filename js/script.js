@@ -132,6 +132,11 @@
       act11_title: "Volunteer Visit for BAC Candidates in Djinet",
       act11_text: "The association's initiatives extended to the municipality of Djinet in Boumerdès Province, where a team of volunteers organized a field visit to distribute drinking water and other supplies to 2026 Baccalaureate candidates, supporting them through their exams.",
 
+      act12_title: "Honorary Breakfast for the Quran Memorizers of Anas Camp",
+act12_text: "In a warm and faith-filled atmosphere, the association organized a special breakfast for the Quran memorizers taking part in Anas Camp, honoring their continuous effort in memorizing the Holy Quran and encouraging them to continue their journey with God's book. The association made sure to create a welcoming, brotherly atmosphere bringing together the memorizers, their families, and the camp supervisors, in an initiative reflecting the values of solidarity and support for those pursuing religious knowledge. The association extends its sincere thanks to everyone who helped make this blessed day a success, praying that God makes the Quran a source of joy in the hearts of our young memorizers and blesses this educational endeavor and all those behind it.",
+
+act13_title: "An Honor Befitting the People of the Quran",
+act13_text: "The association was honored to celebrate Belhabchia Faiza Behdaya on completing her memorization of the Holy Quran, in recognition of her dedication and to encourage her to continue her journey with the Quran. A financial gift of 150,000 DA was also presented, along with an honor for her mother, in recognition of her role in raising and supporting her — for a mother is a partner in every success. The association also did not forget the one who, after God, deserves the credit: the esteemed teacher Haddouche Amina, whose guidance and teaching left a lasting mark on this achievement. May God reward her abundantly. We ask God to make the Quran a source of joy in our hearts and to bless the people of the Quran.",
       contact_eyebrow: "Stay in Touch",
       contact_title: "Contact Us",
       contact_note: "For questions or to contribute to our activities, we'd love to hear from you via:",
