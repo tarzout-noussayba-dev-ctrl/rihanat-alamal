@@ -72,7 +72,7 @@ ul{ list-style:none; margin:0; padding:0; }
 }
 .btn-ghost:hover{ background:var(--sage); }
 
-/* ---------------- header ---------------- */
+
 .site-header{
   position:sticky; top:0; z-index:50;
   background:rgba(251,250,246,.9);
@@ -139,14 +139,14 @@ ul{ list-style:none; margin:0; padding:0; }
 }
 .hero-cta{ display:flex; flex-wrap:wrap; gap:16px; }
 
-/* ---------------- divider ---------------- */
+
 .divider{
   display:flex; justify-content:center; padding-block:8px;
   color:var(--leaf-2);
 }
 .divider svg{ width:34px; height:34px; }
 
-/* ---------------- about ---------------- */
+
 .about{ padding-block:70px; }
 .section-heading{ margin-block-end:32px; }
 .section-heading.center{ text-align:center; }
@@ -167,7 +167,6 @@ ul{ list-style:none; margin:0; padding:0; }
 .stat-num{ font-size:1.8rem; font-weight:700; color:var(--leaf); font-family:var(--font-display-en); }
 .stat-label{ color:var(--ink-soft); font-size:.9rem; }
 
-/* ---------------- activities ---------------- */
 .activities{ padding-block:70px; background:var(--sage); }
 .cards{
   display:grid;
@@ -195,7 +194,7 @@ ul{ list-style:none; margin:0; padding:0; }
 .card h3{ margin:22px 28px 10px; font-size:1.15rem; color:var(--forest); }
 .card p{ margin:0 28px; color:var(--ink-soft); font-size:.96rem; }
 
-/* ---------------- contact ---------------- */
+
 .contact{
   background:var(--forest);
   color:#fff;
@@ -213,7 +212,7 @@ ul{ list-style:none; margin:0; padding:0; }
 .contact-list svg{ width:24px; height:24px; color:var(--gold); flex-shrink:0; }
 .placeholder-note{ font-size:.82rem; color:rgba(255,255,255,.6); }
 
-/* ---------------- footer ---------------- */
+
 .site-footer{ background:#163a27; color:rgba(255,255,255,.75); padding-block:26px; }
 .footer-inner{
   display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:14px;
@@ -222,7 +221,6 @@ ul{ list-style:none; margin:0; padding:0; }
 .brand.small .brand-logo{ width:26px; height:26px; }
 .brand.small{ display:flex; align-items:center; gap:8px; font-weight:600; color:#fff; }
 
-/* ---------------- responsive ---------------- */
 @media (max-width: 860px){
   .cards{ grid-template-columns:1fr; }
   .site-nav{
@@ -245,7 +243,7 @@ ul{ list-style:none; margin:0; padding:0; }
   .btn{ justify-content:center; }
 }
 
-/* respect reduced motion */
+
 @media (prefers-reduced-motion: reduce){
   html{ scroll-behavior:auto; }
   .btn, .card{ transition:none; }

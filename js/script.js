@@ -21,8 +21,8 @@
       about_text: "جمعية خيرية محلية تُعنى بخدمة ومساعدة الأيتام، والأرامل، والمعوزين، والمحتاجين المقيمين ببلدية زموري فقط ,بالإضافة إلى تنظيم الزيارات الميدانية والأنشطة التضامنية والإنسانية الهادفة إلى تعزيز التكافل الاجتماعي",
       about_stat1_num: "100%",
       about_stat1_label: "تطوّع",
-      about_stat2_num: "11",
-      about_stat2_label:  "نشاط تطوعي",
+     
+      
       about_stat3_num: "زموري",
       about_stat3_label: "مقر الجمعية",
 
@@ -61,7 +61,16 @@
 
       act11_title: "زيارة تطوعية لمترشحي البكالوريا ببلدية جنات",
       act11_text: "امتدت مبادرات الجمعية إلى بلدية جنات بولاية بومرداس، حيث نظّم فريق من المتطوعين زيارة ميدانية لتوزيع مياه الشرب وغيرها على مترشحي شهادة البكالوريا 2026، دعمًا لهم في أداء امتحاناتهم.",
+act12_title: "إفطار تكريمي لحفظة القرآن الكريم بمخيم أنس",
+act12_text: "في أجواء إيمانية طيبة، نظّمت الجمعية إفطارًا خاصًا لفائدة حفظة كتاب الله المشاركين في مخيم أنس، تكريمًا لجهدهم المتواصل في حفظ القرآن الكريم وتشجيعًا لهم على مواصلة مسيرتهم مع كتاب الله عز وجل. وحرصت الجمعية على توفير أجواء أخوية دافئة جمعت الحفظة وأسرهم والمشرفين على المخيم، في مبادرة تجسّد قيم التكافل والتشجيع على طلب العلم الشرعي ورعاية حفظة كتاب الله. وتتقدّم الجمعية بالشكر الجزيل لكل من ساهم في إنجاح هذا اليوم المبارك، سائلين الله أن يجعل القرآن الكريم ربيع قلوب أبنائنا الحفظة، وأن يبارك في هذا الصرح التربوي وفي القائمين عليه.",
 
+act13_title: "تكريمٌ يليق بأهل القرآن",
+act13_text: "كان للجمعية شرف تكريم الحافظة بلحبشية فايزة بهداية بمناسبة ختمها لكتاب الله الكريم، تقديرًا لاجتهادها وتشجيعًا لها على مواصلة مسيرتها مع القرآن الكريم. كما تم تقديم هدية مالية قدرها 150,000 دج مع تكريم والدتها الكريمة، عرفانًا بدورها في التربية والدعم، فالأم شريكة في كل نجاح. ولم تنسَ الجمعية صاحبة الفضل بعد الله، الأستاذة الفاضلة حدوش أمينة، التي كان لها الأثر الطيب في تعليم وتوجيه هذه الخاتمة، فجزاها الله خير الجزاء. نسأل الله أن يجعل القرآن ربيع قلوبنا، وأن يبارك في أهل القرآن، فهم أهل الله وخاصته.",
+act14_title: "يوم ترفيهي لأطفال مرضى السرطان",
+act14_text: "نظّمت الجمعية يوم ترفيه خاص لفائدة الأطفال المصابين بالسرطان، في إطار التزامها المستمر بدعم هؤلاء الأبطال الصغار ومرافقتهم في رحلتهم نحو الشفاء، وقضاء وقت مليء بالفرح والابتسامات برفقتهم.",
+
+act15_title: "جمعية ريحانة الأمل في نجدة متضرري حرائق الغابات",
+act15_text: "في ظل حرائق الغابات التي شهدتها بلادنا، بادرت الجمعية بتقديم يد العون للعائلات المتضررة، من خلال توزيع الحليب، الأدوية، الأكفان، والمواد الغذائية.",
       contact_eyebrow: "ابقَ على تواصل",
       contact_title: "اتصل بنا",
       contact_note: "للاستفسار أو المساهمة في أنشطة الجمعية، يسعدنا تواصلكم معنا عبر:",
@@ -91,8 +100,8 @@
       about_text: "A local charity association dedicated to serving and supporting orphans, widows, and those in need residing within the municipality of Zemmouri only, in addition to organizing field visits and solidarity and humanitarian activities aimed at strengthening social cohesion.",
       about_stat1_num: "100%",
       about_stat1_label: "Volunteer-run",
-      about_stat2_num: "11",
-      about_stat2_label: "Core programs",
+      
+      
       about_stat3_num: "Zemmouri",
       about_stat3_label: "Head office of the association",
 
@@ -137,7 +146,13 @@ act12_text: "In a warm and faith-filled atmosphere, the association organized a 
 
 act13_title: "An Honor Befitting the People of the Quran",
 act13_text: "The association was honored to celebrate Belhabchia Faiza Behdaya on completing her memorization of the Holy Quran, in recognition of her dedication and to encourage her to continue her journey with the Quran. A financial gift of 150,000 DA was also presented, along with an honor for her mother, in recognition of her role in raising and supporting her — for a mother is a partner in every success. The association also did not forget the one who, after God, deserves the credit: the esteemed teacher Haddouche Amina, whose guidance and teaching left a lasting mark on this achievement. May God reward her abundantly. We ask God to make the Quran a source of joy in our hearts and to bless the people of the Quran.",
-      contact_eyebrow: "Stay in Touch",
+     act14_title: "A Day of Joy for Our Little Heroes Battling Cancer",
+act14_text: "The association organized a special recreational day for children battling cancer, as part of its ongoing commitment to supporting these young heroes and accompanying them on their journey toward healing. Despite the health challenges they face, these children once again proved the strength of their will and their attachment to life and hope, through genuine smiles and spontaneous moments of joy experienced throughout this day filled with games and recreational activities. This event was more than just a passing activity — it was a true space for spreading hope and joy in the hearts of our children, a reminder that even the smallest moments can create a great impact. We extend our thanks to everyone who contributed to the success of this day, and we reaffirm our commitment to continuing such initiatives, because hope grows when we share it.",
+
+act15_title: "Riahana Al-Amal Association Comes to the Aid of Wildfire Victims",
+act15_text: "Amid the wildfires that struck our country, Riahana Al-Amal Association took the initiative to lend a helping hand to affected families, distributing milk, medicine, burial shrouds, and food supplies. We extend our sincere thanks to everyone who contributed and stood with us in this initiative, praying that God rewards them abundantly and counts their good deeds in their favor.",
+
+contact_eyebrow: "Stay in Touch",
       contact_title: "Contact Us",
       contact_note: "For questions or to contribute to our activities, we'd love to hear from you via:",
       contact_phone: "+213 791 47 36 59",
