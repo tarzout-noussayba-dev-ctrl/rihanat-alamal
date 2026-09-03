@@ -1,0 +1,25 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+locale: "ar"
+
+collections:
+  - name: "activities"
+    label: "الأنشطة"
+    files:
+      - file: "content/activities.json"
+        label: "قائمة الأنشطة"
+        name: "activities"
+        fields:
+          - label: "الأنشطة"
+            name: "items"
+            widget: "list"
+            summary: "{{title}}"
+            fields:
+              - { label: "العنوان", name: "title", widget: "string" }
+              - { label: "الصورة", name: "image", widget: "image" }
+              - { label: "الوصف / الحالة", name: "description", widget: "text" }
