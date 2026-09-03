@@ -7,6 +7,9 @@ public_folder: "/images"
 
 locale: "ar"
 
+editor:
+  preview: false
+
 collections:
   - name: "activities"
     label: "الأنشطة"
