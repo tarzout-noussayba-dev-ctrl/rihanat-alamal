@@ -1,5 +1,3 @@
-// يجلب هذا الملف الأنشطة من content/activities.json ويبنيها تلقائيًا
-// بنفس تصميم البطاقات الحالي — لا حاجة لتعديل HTML يدويًا بعد الآن.
 
 fetch('content/activities.json')
   .then(function (res) { return res.json(); })
