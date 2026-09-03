@@ -122,7 +122,8 @@
       </div>
 
       <div class="cards" id="activities-cards">
-      
+        <!-- تُبنى بطاقات الأنشطة هنا تلقائيًا بواسطة js/activities.js -->
+        <!-- لا حاجة لإضافة أو تعديل أي بطاقة يدويًا بعد الآن -->
       </div>
     </div>
   </section>
@@ -173,13 +174,17 @@
 <script src="js/script.js"></script>
 <script src="js/activities.js"></script>
 
+<!-- يلتقط رابط الدعوة/إعادة تعيين كلمة المرور من نتليفاي ويعرض نافذة إنشاء كلمة السر -->
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <script>
-  if (window.location.hash && (
-        window.location.hash.includes("invite_token") ||
-        window.location.hash.includes("recovery_token") ||
-        window.location.hash.includes("confirmation_token")
-     )) {
-    window.location.href = "/admin/" + window.location.hash;
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", function (user) {
+      if (!user) {
+        window.netlifyIdentity.on("login", function () {
+          document.location.href = "/admin/";
+        });
+      }
+    });
   }
 </script>
 </body>
